@@ -15,34 +15,15 @@
 # Input: nums = [3,3], target = 6
 # Output: [0,1]
 
-from typing import List
+class Solution:    
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        for x in range(len(nums)):
+            leftNum= target-nums[x] 
+            for y in range(x+1,len(nums)):
+                if (leftNum-nums[y])==0:
+                    return [x,y]
 
 
-class Solution:
+op=Solution().twoSum([2,7,11,15],9)                    
+print(op)
     
-    def __init__(self,nums=[],target=int):
-        self.nums = nums
-        self.target = target
-        
-    def twoSum(self, nums, target):
-        if not isinstance(nums,List):
-            return "nums is not List!"
-        else:
-            if len(nums) == 0:
-                return "Error: nums is Empty List!"
-
-        if not isinstance(target,int):
-            return "target is not integer!"
-
-        sum = 0
-        now = 0
-        for item in nums:
-            if (now==0) and (now <=target):
-               sum = item 
-            else:
-                continue   
-
-                
-
-
-
