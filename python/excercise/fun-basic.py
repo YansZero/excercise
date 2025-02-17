@@ -56,7 +56,8 @@ def power(base,exp=0):
     print(base**exp)
     return base**exp
 
-power(4,3)    
+power(4,3)
+power(4) 
 
 def avg(*nums):
     sum=0
