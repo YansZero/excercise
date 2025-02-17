@@ -12,7 +12,7 @@ if age >= 100:
     print("太老了~無法註冊")
 elif age >= 18:
     print("合法可以註冊")
-elif age >= 0 & age < 18:
+elif 0 <= age < 18:
     print("你要年滿18才能註冊")
 else:
     print("年齡錯誤~不可以註冊")
