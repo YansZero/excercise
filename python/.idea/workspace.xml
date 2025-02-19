@@ -13,6 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2024.3/python_stubs/1935667455/builtins.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -25,21 +28,30 @@
   "keyToString": {
     "Python.Iterable.executor": "Run",
     "Python.classex.executor": "Run",
+    "Python.compound_interest_calculator.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.easy_calculator.executor": "Run",
+    "Python.email_slicer.executor": "Run",
+    "Python.for_loop.executor": "Run",
     "Python.fun-basic.executor": "Run",
     "Python.generator.executor": "Run",
     "Python.if_statement.executor": "Run",
     "Python.logic_operator.executor": "Run",
     "Python.loop-basic.executor": "Run",
     "Python.loop-control.executor": "Run",
+    "Python.nested_for_loop.executor": "Run",
+    "Python.stopwatch.executor": "Run",
+    "Python.string_formating.executor": "Run",
+    "Python.string_index.executor": "Run",
     "Python.string_method.executor": "Run",
     "Python.temperature_conversion.executor": "Run",
     "Python.weight_conversion.executor": "Run",
+    "Python.while_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "E:/coding/excercise/python"
+    "last_opened_file_path": "E:/coding/excercise/python",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
