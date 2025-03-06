@@ -35,6 +35,7 @@
     "Python.default_arguments.executor": "Run",
     "Python.dice_roller.executor": "Run",
     "Python.dictionary.executor": "Run",
+    "Python.dictionary_comprehension.executor": "Run",
     "Python.dictionary_ex.executor": "Run",
     "Python.easy_calculator.executor": "Run",
     "Python.email_slicer.executor": "Run",
