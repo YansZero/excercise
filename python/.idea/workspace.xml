@@ -59,6 +59,8 @@
     "Python.loop-basic.executor": "Run",
     "Python.loop-control.executor": "Run",
     "Python.method_chain.executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2.executor": "Run",
     "Python.module_import.executor": "Run",
     "Python.nested_for_loop.executor": "Run",
     "Python.object_as_argument.executor": "Run",
@@ -73,6 +75,7 @@
     "Python.python_filter.executor": "Run",
     "Python.python_lambda.executor": "Run",
     "Python.python_map.executor": "Run",
+    "Python.python_time.executor": "Run",
     "Python.random_ex.executor": "Run",
     "Python.scopy.executor": "Run",
     "Python.sellmachine.executor": "Run",
@@ -85,20 +88,24 @@
     "Python.warlus_operator.executor": "Run",
     "Python.weight_conversion.executor": "Run",
     "Python.while_loop.executor": "Run",
+    "Python.zip.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "E:/coding/excercise/python",
+    "last_opened_file_path": "E:/coding/excercise/python/pythonEx01",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\coding\excercise\python\pythonEx01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\coding\excercise\python\pythonEx01\list_operator" />
+      <recent name="E:\coding\excercise\python\pythonEx01\module_related" />
       <recent name="E:\coding\excercise\python\pythonEx01\basic" />
       <recent name="E:\coding\excercise\python\pythonEx01\string_related" />
       <recent name="E:\coding\excercise\python\pythonEx01\interesting_game" />
-      <recent name="E:\coding\excercise\python\pythonEx01\interest_game" />
-      <recent name="E:\coding\excercise\python\pythonEx01\function_related" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -118,5 +125,16 @@
       <updated>1739723085751</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythonEx01/Python_pip.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

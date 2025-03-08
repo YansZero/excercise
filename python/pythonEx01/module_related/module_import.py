@@ -13,7 +13,8 @@
 # print(round(number, 3))
 
 # 練習使用自己寫的模組
-import my_module as m
+from pythonEx01.module_related import my_module as m
+
 print(m.pi)
 print(m.square(3))
 print(m.cube(3))
