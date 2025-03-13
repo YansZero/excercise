@@ -14,6 +14,7 @@ file_path = r"E:\coding\test\zzz.txt"
 try:
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(json.dumps(str, ensure_ascii=False))
+        #json.dump(str,file,ensure_ascii=False )
 except Exception as e:
     print(f"寫入有異常,{e}")
 

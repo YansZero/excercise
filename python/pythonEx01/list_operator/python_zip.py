@@ -77,8 +77,8 @@ for item in arr2:
 
 
 def rotateLeft(arr):
-    newArr = list(map(list, zip(*arr)))
-    return newArr[::-1] #倒著印就好
+    newArr = list(map(list, zip(*arr)))[::-1] #倒著印就好
+    return newArr
 
 
 print("向左旋轉後")
