@@ -75,6 +75,8 @@
     "Python.python_filter.executor": "Run",
     "Python.python_lambda.executor": "Run",
     "Python.python_map.executor": "Run",
+    "Python.python_random_ex.executor": "Run",
+    "Python.python_statistics.executor": "Run",
     "Python.python_time.executor": "Run",
     "Python.random_ex.executor": "Run",
     "Python.scopy.executor": "Run",
