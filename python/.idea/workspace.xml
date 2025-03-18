@@ -29,6 +29,7 @@
     "Python.Iterable.executor": "Run",
     "Python.args_kwargs.executor": "Run",
     "Python.assign_function_to_variable.executor": "Run",
+    "Python.basic_crawler.executor": "Run",
     "Python.classex.executor": "Run",
     "Python.compound_interest_calculator.executor": "Run",
     "Python.decoratorf.executor": "Run",
@@ -43,6 +44,7 @@
     "Python.file_copy.executor": "Run",
     "Python.file_delete.executor": "Run",
     "Python.file_detect.executor": "Run",
+    "Python.file_instance_ex.executor": "Run",
     "Python.file_read.executor": "Run",
     "Python.file_write.executor": "Run",
     "Python.for_loop.executor": "Run",
@@ -127,16 +129,5 @@
       <updated>1739723085751</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pythonEx01/Python_pip.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
