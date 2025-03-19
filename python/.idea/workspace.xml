@@ -90,6 +90,7 @@
     "Python.string_method.executor": "Run",
     "Python.temperature_conversion.executor": "Run",
     "Python.warlus_operator.executor": "Run",
+    "Python.web_data_fetch_ex.executor": "Run",
     "Python.weight_conversion.executor": "Run",
     "Python.while_loop.executor": "Run",
     "Python.zip.executor": "Run",
