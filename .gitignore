@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 #ignore path
-excercise/chromedriver-win64/
+chromedriver-win64/
