@@ -28,7 +28,7 @@ request_data = [{"operationName":"WebInlineRecommendedFeedQuery","variables":{"f
 req = request.Request(url,headers={
     "Content-type":"application/json",
     "User-agent": user_agent,
-    "Cookie":cookie
+    "Cookie":"sid= ;uid= "
 },data=json.dumps(request_data).encode("utf-8"))
 
 with request.urlopen(req) as response:
