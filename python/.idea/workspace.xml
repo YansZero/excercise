@@ -30,6 +30,7 @@
     "Python.args_kwargs.executor": "Run",
     "Python.assign_function_to_variable.executor": "Run",
     "Python.basic_crawler.executor": "Run",
+    "Python.basic_crawler_with-request.executor": "Run",
     "Python.basic_crawler_with_ajax-xhr.executor": "Run",
     "Python.basic_crawler_with_cookie.executor": "Run",
     "Python.classex.executor": "Run",
