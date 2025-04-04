@@ -36,3 +36,5 @@ code exercise for Python
 2025.03.25 add basic web crawler with ajax & add basic web crawler with cookie 
 
 2025.04.04 add web crawler with request data & update web crawler with request data & add selenium exercise  
+
+2025.04.04 send mail from gmail

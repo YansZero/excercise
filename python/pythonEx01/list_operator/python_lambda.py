@@ -1,5 +1,4 @@
 # Python中的Lambda λ
-from tkinter.scrolledtext import example
 
 # Lambda 有函式的功能 一行就可以寫完
 # 可傳參數

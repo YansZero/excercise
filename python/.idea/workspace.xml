@@ -88,6 +88,7 @@
     "Python.scopy.executor": "Run",
     "Python.selenium_crawler_basic.executor": "Run",
     "Python.sellmachine.executor": "Run",
+    "Python.send_mail.executor": "Run",
     "Python.shopping_cart.executor": "Run",
     "Python.stopwatch.executor": "Run",
     "Python.string_formating.executor": "Run",

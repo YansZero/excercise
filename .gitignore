@@ -131,3 +131,4 @@ dist
 
 #ignore path
 chromedriver-win64/
+python/pythonEx01/env
