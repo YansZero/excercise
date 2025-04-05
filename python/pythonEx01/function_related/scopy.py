@@ -10,7 +10,7 @@
 
 # 變數範圍
 a = 10
-
+print(f"外面的a is:{a}")
 def function_a():
     # a 是function_a local變數
     a = 1

@@ -2,9 +2,16 @@
 
 # in 後面接可迭代的
 # range(start,end) 但不包含end
+print(f"使用range三個參數 range(1, 11),結果為1...10")
 for x in range(1, 11):
     print(x)
+# range(start,end,step) 但不包含end,每次以step作推進
+print(f"使用range三個參數 range(1, 11, 3),結果為1,4,7,10")
+for z in range(1, 11, 3):
+    print(z)
+
 # reversed 相反
+print(f"使用reversed完成倒數reversed(range(1, 11),結果為10..1")
 for y in reversed(range(1, 11)):
     print(y)
 print("Happy New Year!")

@@ -17,12 +17,16 @@ print(capital.get("France"))
 capital.update({"Germany": "Berlin"})
 print(capital)
 
+# 使用update() 增加鍵值的值
+capital.update({"XYZ": "ABC"})
+print(f"dic使用update後增加{{'XYZ': 'ABC'}}到{capital}")
+
 # pop() 刪除鍵值對
 capital.pop("ROC")
 print(capital)
 
 # values 取得所有值
-print("values所有值為",capital.values())
+print("values所有值為", capital.values())
 
 # items 取得所有鍵值對
-print("items for capital",capital.items())
+print("items for capital", capital.items())

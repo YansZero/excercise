@@ -26,6 +26,11 @@ fruits.append("apple")
 fruits.append("apple")
 print(fruits)
 
+fruits2 =[1,2,3,4]
+# 可以使用 list.extend(另外一個可迭代的), 從最後面擴充
+fruits.extend(fruits2)
+print(f"fruits使用extend加入fruits2後:{fruits}")
+
 # count 計算總數
 print(f"List apple 總數為:{fruits.count("apple")}")
 
