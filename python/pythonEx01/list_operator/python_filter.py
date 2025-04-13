@@ -14,3 +14,7 @@ car_drink_friend = list(filter(age_filter, friends))
 
 for friend in car_drink_friend:
     print(f"{friend[0], friend[1]}")
+
+x = [1, 2, 3, 4, 5]
+res = filter(lambda d: d > 3, x)
+print(list(res))

@@ -28,7 +28,7 @@ with request.urlopen(req) as response: #根據觀察回來的是json格式
 sales_item_list = sales_data["data"]
 
 for sales_item in sales_item_list:
-    print(f"開始時間{sales_item['startTime']},結束時間{sales_item['endTime']}")
+    print(f"特賣開始時間{sales_item['startTime']},結束時間{sales_item['endTime']}")
     print("-----------特賣產品清單-------------------")
     for product in sales_item['products']:
         print(f"產品名稱:{product['name']},原價:{product['price']['origin']},特價:{product['price']['onsale']}")

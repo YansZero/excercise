@@ -81,6 +81,7 @@
     "Python.papper_scissors_stone.executor": "Run",
     "Python.python_callback.executor": "Run",
     "Python.python_date_ex.executor": "Run",
+    "Python.python_datetime_ex.executor": "Run",
     "Python.python_decorator.executor": "Run",
     "Python.python_decorator_basic.executor": "Run",
     "Python.python_decorator_factory.executor": "Run",
@@ -173,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module2" />
         <item itemvalue="Python.module1" />
+        <item itemvalue="Python.module2" />
       </list>
     </recent_temporary>
   </component>

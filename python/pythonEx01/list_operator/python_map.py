@@ -18,12 +18,13 @@
 # print(f"台灣商店價格{store_tw}")
 
 store = [
-    ('襯衫', 600), #NTD
+    ('襯衫', 600),  # NTD
     ('褲子', 900),
     ('夾克', 1500),
     ('襪子', 300)
 ]
-to_usd = lambda data: (data[0],round(data[1]/30))
+print(f"台灣商店價格{store}")
+to_usd = lambda data: (data[0], round(data[1] / 30))
 store_usd = list(map(to_usd, store))
 
 print(f"美國商店價格{store_usd}")
@@ -31,5 +32,13 @@ print(f"美國商店價格{store_usd}")
 for item in store_usd:
     print(item)
 
-
-
+#使用filter + map with lambda
+store_tw = [
+    ('襯衫', 600),  # NTD
+    ('褲子', 900),
+    ('夾克', 1500),
+    ('襪子', 300)
+]
+to_filter_lambda = lambda data: filter(lambda data2: data2[1] > 700, data)
+to_map_lambda = lambda data: map(lambda data2: (data2[0], round(data2[1] / 30)), to_filter_lambda(data))
+print(list(to_map_lambda(store_tw)))
